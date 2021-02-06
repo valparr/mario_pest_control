@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+   
+}
+
+/*header*/
+header {
+    margin-top: 16px;
+    background-color: rgb(140, 140, 140);
+    border: 11px solid #ff0004 ;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0px;
+}
+
+.logo {
+    width: auto;
+    height: 175px;
+    margin-top: 16px;
+}
+
+h1 {
+    color: white;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 8px;
+    margin: 0px 30px 17px;
+  
+}
+
+
+@media (min-width: 750px) and (max-width: 450px)  {
+    .logo {
+        float: left;
+        height: 260px;
+        width: auto;
+        margin-top: 25px;
+        margin-left: 26px;
+    }
+    header {
+        margin-top: 16px;
+        background-color: rgb(140, 140, 140);
+        border: 11px solid #ff0004 ;
+        left: 0;
+        right: 0;
+        width: 100%;
+        margin: 0px;
+    }
+    h1 {
+        color: black;
+        text-align: center;
+        font-size: 16px;
+        margin-top: 102px;
+        margin-right: 9px;
+        
+    }
+    
+}
+#baddieList {
+    width: 12.33%;
+    margin-left: 25px 0;
+}
+
+ 
+/*footer*/
+footer {
+    background-color: #1254dd;
+    text-align: center;
+    font-family: 'Catamaran', sans-serif;
+    padding: 0px;
+    border: 16px solid #ff0004;
+    color: #ffffff;
+    width: 100%;
+   
+   
+}
+
+#resources {
+    margin-left: 0;
+    padding: 0px;
+}
+
+    
+th {
+    color: #ffcc00;
+    font-family: 'Press Start 2P';
+    margin: 0;
+    padding: 14px;
+    padding-top: 44px;
+
+}
+
+li, a {
+    list-style-type: none;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+
