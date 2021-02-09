@@ -56,6 +56,10 @@ b {
     padding: 10px;
 }  
 
+#out {
+    background-color: red;
+}
+
 @media (min-width: 750px) and (max-width: 450px)  {
     .logo {
         float: left;
